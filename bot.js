@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 console.log("Allied Ahmed#0001");
-var prefix = "=";
+var prefix = "$";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "bc")) {
